@@ -5,100 +5,58 @@ const Habilidades = () => {
     const skillsData = [
         {
             id: 1,
-            titulo: "Power BI",
-            descripcion: "DAX, Data Modeling, Power Query, Governance.",
-            nivel: "Avanzado",
+            titulo: "Ingles Basico",
+            descripcion: "Curso de Ingles basico llevado en el programa CONVERSA de Tecsup.",
+            nivel: "Basico",
             botonTexto: "VER CERTIFICADO",
+            linkCertif: "https://academico-cloud.tecsup.edu.pe/pcc/#/home/certificado?c=8943&n=CONVERSA/B/2562&t=I",
             estado: "completado" // Usaremos esto para cambiar los colores
         },
         {
             id: 2,
-            titulo: "SQL Server / MySQL / PostGreSQL / Oracle",
-            descripcion: "SQL, T-SQL, Optimización, Procedimientos Almacenados.",
-            nivel: "Avanzado",
+            titulo: "Ingles Intermedio",
+            descripcion: "Curso de Ingles Intermedio llevado en el programa CONVERSA de Tecsup.",
+            nivel: "Intermedio",
             botonTexto: "VER CERTIFICADO",
+            linkCertif: "https://academico-cloud.tecsup.edu.pe/pcc/#/home/certificado?c=14361&n=CONVERSA/I/3116&t=I ",
             estado: "completado"
         },
         {
             id: 3,
-            titulo: "Python for Data Analyst",
-            descripcion: "Pandas, NumPy, Matplotlib, Automatización, Keras.",
+            titulo: "Unreal Engine",
+            descripcion: "Desarrollo de juegos profesional con UNREAL ENGINE",
             nivel: "Avanzado",
             botonTexto: "VER CERTIFICADO",
+            linkCertif: "http://ude.my/UC-bbd4a673-cf77-4eb3-9c12-409d66624e34",
             estado: "completado"
         },
         {
             id: 4,
-            titulo: "Excel / VBA",
-            descripcion: "Macros, Power Pivot, Power Query, Pivot Tables, Dashboards complejos.",
-            nivel: "Experto",
+            titulo: "Desarrollo Web con HTML, CSS y JvaScript",
+            descripcion: "Curso de Udemy para desarrollo de paginas web",
+            nivel: "Basico",
             botonTexto: "VER CERTIFICADO",
+            linkCertif: "https://ude.my/UC-f338a740-00bb-4b80-9ce9-4d314c19a566/",
             estado: "completado"
         },
         {
             id: 5,
-            titulo: "Laravel",
-            descripcion: "Backend Developer",
-            nivel: "Avanzado",
+            titulo: "Java con Greenfood en Oracle",
+            descripcion: "Curso de Java con Greenfood en Oracle",
+            nivel: "Basico",
             botonTexto: "VER CERTIFICADO",
+            linkCertif: "https://drive.google.com/file/d/1TYsIQcxNlWL_VWRr1e3AAnkJtrSIKHGE/view?usp=drive_link",
             estado: "completado"
         },
         {
             id: 6,
-            titulo: "React",
-            descripcion: "Construcción de Interfaces de Usuario Modernas a partir de Componentes",
-            nivel: "Aprendizaje Activo",
+            titulo: "Java con Alice",
+            descripcion: "Curso de Java con Alice en Oracle",
+            nivel: "Basico",
             botonTexto: "VER CERTIFICADO",
+            linkCertif: "https://drive.google.com/file/d/1L91g7fi_mts_sF30nbgEU5XLHRFa9shw/view?usp=drive_link",
             estado: "completado"
         },
-        {
-            id: 7,
-            titulo: "Angular",
-            descripcion: "Construcción de aplicaciones web de una sola página.",
-            nivel: "Aprendizaje Activo",
-            botonTexto: "VER CERTIFICADO",
-            estado: "completado"
-        },
-        {
-            id: 8,
-            titulo: "Git",
-            descripcion: "Sistema de Control de Versiones.",
-            nivel: "Aprendizaje Activo",
-            botonTexto: "VER CERTIFICADO",
-            estado: "completado"
-        },
-        {
-            id: 9,
-            titulo: "GitHub",
-            descripcion: "Repositorio en la nube.",
-            nivel: "Aprendizaje Activo",
-            botonTexto: "VER CERTIFICADO",
-            estado: "completado"
-        },
-        {
-            id: 10,
-            titulo: "JavaScript",
-            descripcion: "Lenguaje de programación interpretado, dialecto del estándar ECMAScript.",
-            nivel: "Aprendizaje Activo",
-            botonTexto: "VER CERTIFICADO",
-            estado: "completado"
-        },
-        {
-            id: 11,
-            titulo: "Grid",
-            descripcion: "Contrucción de rejillas responsivas.",
-            nivel: "Aprendizaje Activo",
-            botonTexto: "VER CERTIFICADO",
-            estado: "completado"
-        },
-        {
-            id: 12,
-            titulo: "Flexbox",
-            descripcion: "Método de diseño de página unidimensional para compaginar elementos en filas o columnas.",
-            nivel: "Aprendizaje Activo",
-            botonTexto: "VER CERTIFICADO",
-            estado: "completado"
-        }
     ];
 
     return (
@@ -122,9 +80,11 @@ const Habilidades = () => {
                                 </div>
 
                                 {/* Clases dinámicas: Si el estado es proceso, aplicamos la clase 'badge-yellow' */}
-                                <span className={`skill-badge ${skill.estado === 'proceso' ? 'badge-yellow' : 'badge-green'}`}>
-                                    {skill.botonTexto}
-                                </span>
+                                <a href={skill.linkCertif} target="_blank">
+                                    <span className={`skill-badge ${skill.estado === 'proceso' ? 'badge-yellow' : 'badge-green'}` }>
+                                        {skill.botonTexto}
+                                    </span>
+                                </a>
                             </div>
 
                             {/* Cuerpo de la tarjeta: Textos */}
