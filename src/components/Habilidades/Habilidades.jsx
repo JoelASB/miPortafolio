@@ -57,6 +57,24 @@ const Habilidades = () => {
             linkCertif: "https://drive.google.com/file/d/1L91g7fi_mts_sF30nbgEU5XLHRFa9shw/view?usp=drive_link",
             estado: "completado"
         },
+        {
+            id: 7,
+            titulo: "Fundamentos de programacion en Python",
+            descripcion: "Curso de fundamentos de Python en Cisco",
+            nivel: "Basico",
+            botonTexto: "VER CERTIFICADO",
+            linkCertif: "https://drive.google.com/file/d/1ZeEhojFPvKXe5cmC0BnonYou0ssBiizy/view?usp=drive_link",
+            estado: "completado"
+        },
+        {
+            id: 8,
+            titulo: "Introduccion a IoT",
+            descripcion: "Curso de Introduccion a IoT en Cisco",
+            nivel: "Basico",
+            botonTexto: "VER CERTIFICADO",
+            linkCertif: "https://drive.google.com/file/d/1O2u2u9nNJzgjhkW3rn9aMHkHHhwtRWnF/view?usp=drive_link",
+            estado: "completado"
+        },
     ];
 
     return (
