@@ -2,12 +2,13 @@
    CONTENEDOR PRINCIPAL (Ocupa toda la pantalla)
 ========================================================= */
 .hero-section {
-    min-height: calc(100vh - 80px); /* 100vh menos la altura aproximada del navbar */
+    min-height: calc(100vh - 80px);
+    /* 100vh menos la altura aproximada del navbar */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(circle at center, #111a2e 0%, #0b0f19 70%);
+    background: radial-gradient(circle at center, #112e29 0%, #0b1916 70%);
     color: #ffffff;
     padding: 2rem 5%;
     position: relative;
@@ -28,7 +29,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(255, 0, 0, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -40,9 +41,11 @@
 .status-dot {
     width: 8px;
     height: 8px;
-    background-color: #00d8ff; /* Cyan */
+    background-color: #00ffc8;
+    /* Cyan */
     border-radius: 50%;
-    box-shadow: 0 0 8px #00d8ff; /* Efecto de brillo */
+    box-shadow: 0 0 8px #00ffb3;
+    /* Efecto de brillo */
 }
 
 /* =========================================================
@@ -55,10 +58,14 @@
 .profile-photo {
     width: 160px;
     height: 160px;
-    object-fit: cover; /* Evita que la foto se estire si no es cuadrada */
-    border-radius: 50%; /* Hace que sea un círculo perfecto */
-    border: 6px solid rgba(5, 163, 215, 0.8); /* Borde sutil cyan */
-    box-shadow: 0 0 20px rgba(5, 163, 215, 0.8); /* Sombra brillante */
+    object-fit: cover;
+    /* Evita que la foto se estire si no es cuadrada */
+    border-radius: 50%;
+    /* Hace que sea un círculo perfecto */
+    border: 7px solid rgba(10, 182, 212, 0.8);
+    /* Borde sutil cyan */
+    box-shadow: 0 0 20px rgba(5, 170, 192, 0.8);
+    /* Sombra brillante */
 }
 
 /* =========================================================
@@ -71,13 +78,15 @@
     margin-bottom: 1.5rem;
 }
 
+.hero-title .text-cyan,
+.hero-section .text-cyan,
 .text-cyan {
-    color: #00d8ff;
+    color: #00ffdd;
 }
 
 .hero-subtitle {
     font-size: 1.1rem;
-    color: #00d8ff;
+    color: #00ffdd;
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
@@ -109,20 +118,20 @@
 }
 
 .btn-primary {
-    background-color: #00d8ff;
+    background-color: #00fff2;
     color: #0b0f19;
-    border: 2px solid #00d8ff;
+    border: 2px solid #00fff2;
 }
 
 .btn-primary:hover {
     background-color: transparent;
-    color: #00d8ff;
+    color: #00fff2;
 }
 
 .btn-secondary {
     background-color: transparent;
-    color: #ffffff;
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #9de4c8;
+    border: 1px solid rgba(148, 179, 194, 0.397);
 }
 
 .btn-secondary:hover {
@@ -141,9 +150,22 @@
 }
 
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-    40% { transform: translateY(-10px); }
-    60% { transform: translateY(-5px); }
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
 }
 
 /* =========================================================

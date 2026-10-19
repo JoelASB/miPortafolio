@@ -6,7 +6,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 5%;
-    background-color: #0b0f19; /* Fondo oscuro elegante */
+    background-color: #0b1916;
+    /* Fondo oscuro elegante */
     color: #ffffff;
     position: sticky;
     top: 0;
@@ -24,8 +25,10 @@
     letter-spacing: 1px;
 }
 
+.navbar-logo .text-cyan,
 .text-cyan {
-    color: #00d8ff; /* Color de acento (Cyan) */
+    color: #00ffdd;
+    /* Color de acento (Verde del subtítulo) */
 }
 
 /* =========================================================
@@ -71,11 +74,13 @@
 ========================================================= */
 @media (max-width: 768px) {
     .navbar-toggle {
-        display: flex; /* Mostramos el botón hamburguesa */
+        display: flex;
+        /* Mostramos el botón hamburguesa */
     }
 
     .navbar-links {
-        display: none; /* Ocultamos los enlaces horizontales */
+        display: none;
+        /* Ocultamos los enlaces horizontales */
         flex-direction: column;
         position: absolute;
         top: 100%;
@@ -87,8 +92,9 @@
         gap: 2rem;
         box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
     }
+
     /* Cuando el estado isOpen es true, se añade la clase "open" */
-    .navbar-links.open{
+    .navbar-links.open {
         display: flex;
     }
 }
