@@ -21,15 +21,15 @@ const Proyectos = () => {
             linkDemo: "https://trv-studio.vercel.app/",
             linkCodigo: "#"
         },
-        /*{
+        {
             id: 3,
-            imagen: "https://intikisa.pe/wp-content/uploads/2024/08/Productos_en_polvo1.png.webp",
-            titulo: "Aplicación Web de venta de productos naturales",
-            descripcion: "Aplicación web para la venta de productos naturales online.",
-            tecnologias: ["React", "Laravel", "PostgreSQL"],
-            linkDemo: "https://intikisa.pe",
+            imagen: "https://drive.google.com/file/d/1C_gk5idrt9nmDSNEqbXvgBAYIaYoMNCa/view?usp=drive_link",
+            titulo: "Proyecto de caja fuerte",
+            descripcion: "El proyecto consistía en crear una caja fuerte con sistema de seguridad y codigo de apertura.",
+            tecnologias: ["Arduino", "Servomotores", "Sensores", "LEDs", "display LCD", "Buzzer", "Pulsadores", "Protoboard"],
+            linkDemo: "https://drive.google.com/drive/folders/19ne0M1OFiSP63GBJ2Twn7J_cEzzi0OyE",
             linkCodigo: "#"
-        },
+        }/*,
         {
             id: 4,
             imagen: "https://liora.io/app/uploads/sites/7/2020/10/power-bi-logo-1.jpg",
