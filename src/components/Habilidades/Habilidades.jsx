@@ -75,6 +75,42 @@ const Habilidades = () => {
             linkCertif: "https://drive.google.com/file/d/1O2u2u9nNJzgjhkW3rn9aMHkHHhwtRWnF/view?usp=drive_link",
             estado: "completado"
         },
+        {
+            id: 9,
+            titulo: "Database Design en Oracle",
+            descripcion: "Curso de Database Design en Oracle en Español",
+            nivel: "Basico",
+            botonTexto: "VER CERTIFICADO",
+            linkCertif: "https://drive.google.com/file/d/1oLDAfMxFSEZfMbtfBx8hc1ryoUj1yNSr/view?usp=drive_link",
+            estado: "completado"
+        },
+        {
+            id: 10,
+            titulo: "programacion en Database en Oracle",
+            descripcion: "Curso de Database Programming en Oracle en español",
+            nivel: "Basico",
+            botonTexto: "VER CERTIFICADO",
+            linkCertif: "hhttps://drive.google.com/file/d/14J_zlBKmpmklFQi__Nu_1Is1_2SkgKjI/view?usp=drive_link",
+            estado: "completado"
+        },
+        {
+            id: 11,
+            titulo: "Java_Foundations",
+            descripcion: "Curso de Java Foundations en Oracle en Español",
+            nivel: "Basico",
+            botonTexto: "VER CERTIFICADO",
+            linkCertif: "https://drive.google.com/file/d/1TpdyZeCb74r_el4IBjl_qdhxjfq5Sy64/view?usp=drive_link",
+            estado: "completado"
+        },
+        {
+            id: 12,
+            titulo: "Fundamentos de Java",
+            descripcion: "Curso de Fundamentos de Java en Oracle en Español",
+            nivel: "Basico",
+            botonTexto: "VER CERTIFICADO",
+            linkCertif: "https://drive.google.com/file/d/155Y3gdZvalulK-_XhWZsDXnGS2cqj3l-/view?usp=drive_link",
+            estado: "completado"
+        }
     ];
 
     return (
@@ -89,8 +125,8 @@ const Habilidades = () => {
                                 <div className="skill-icon">
                                     {/* Aquí pueden colocar la etiqueta <img src={logoPowerBI} /> */}
                                     <svg width="32" height="32" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
-                                    strokeLinejoin="round" className="text-cyan">
+                                        fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
+                                        strokeLinejoin="round" className="text-cyan">
                                         <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
                                         <line x1="3" y1="9" x2="21" y2="9"></line>
                                         <line x1="9" y1="21" x2="9" y2="9"></line>
@@ -99,7 +135,7 @@ const Habilidades = () => {
 
                                 {/* Clases dinámicas: Si el estado es proceso, aplicamos la clase 'badge-yellow' */}
                                 <a href={skill.linkCertif} target="_blank">
-                                    <span className={`skill-badge ${skill.estado === 'proceso' ? 'badge-yellow' : 'badge-green'}` }>
+                                    <span className={`skill-badge ${skill.estado === 'proceso' ? 'badge-yellow' : 'badge-green'}`}>
                                         {skill.botonTexto}
                                     </span>
                                 </a>

@@ -23,7 +23,7 @@ const Proyectos = () => {
         },
         {
             id: 3,
-            imagen: "https://drive.google.com/file/d/1C_gk5idrt9nmDSNEqbXvgBAYIaYoMNCa/view?usp=drive_link",
+            imagen: "https://lh3.googleusercontent.com/keep-bbsk/AFgXFlJs2IeFja9uWnqDFdwq80TwIxb4adsp3WXfZGSvjDLxg5ofBiP3xHVUI7ACPqsRo1ev_GXmJF5PtW7fhqQlmjyVbc2_aE3LPu4BSSZvA6yrrFTh0NJi_w=s810",
             titulo: "Proyecto de caja fuerte",
             descripcion: "El proyecto consistía en crear una caja fuerte con sistema de seguridad y codigo de apertura.",
             tecnologias: ["Arduino", "Servomotores", "Sensores", "LEDs", "display LCD", "Buzzer", "Pulsadores", "Protoboard"],
