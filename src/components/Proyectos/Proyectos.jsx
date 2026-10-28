@@ -23,22 +23,22 @@ const Proyectos = () => {
         },
         {
             id: 3,
-            imagen: "https://lh3.googleusercontent.com/keep-bbsk/AFgXFlJs2IeFja9uWnqDFdwq80TwIxb4adsp3WXfZGSvjDLxg5ofBiP3xHVUI7ACPqsRo1ev_GXmJF5PtW7fhqQlmjyVbc2_aE3LPu4BSSZvA6yrrFTh0NJi_w=s810",
+            imagen: "https://lh3.googleusercontent.com/keep-bbsk/AFgXFlJs2IeFja9uWnqDFdwq80TwIxb4adsp3WXfZGSvjDLxg5ofBiP3xHVUI7ACPqsRo1ev_GXmJF5PtW7fhqQlmjyVbc2_aE3LPu4BSSZvA6yrrFTh0NJi_w=s810.jpg",
             titulo: "Proyecto de caja fuerte",
             descripcion: "El proyecto consistía en crear una caja fuerte con sistema de seguridad y codigo de apertura.",
             tecnologias: ["Arduino", "Servomotores", "Sensores", "LEDs", "display LCD", "Buzzer", "Pulsadores", "Protoboard"],
             linkDemo: "https://drive.google.com/drive/folders/19ne0M1OFiSP63GBJ2Twn7J_cEzzi0OyE",
             linkCodigo: "#"
-        }/*,
+        },
         {
             id: 4,
-            imagen: "https://liora.io/app/uploads/sites/7/2020/10/power-bi-logo-1.jpg",
-            titulo: "Dashboard Interactivo en Power BI",
-            descripcion: "Construcción de un Panel BI Interactivo.",
-            tecnologias: ["Power BI", "DAX", "Power Query", "Modelado de datos", "Power BI Service", "SharePoint"],
-            linkDemo: "#",
+            imagen: "https://photos.fife.usercontent.google.com/pw/AP1GczPgqN3IM8Z-u3a16j5V2cxrM0K_yyzpmWqBKWieSgMzZCw-EByCbJHH=w1276-h700-s-no-gm?authuser=0",
+            titulo: "PLATFORM ACADEMY",
+            descripcion: "Proyecto Demo de videojuego donde entrenas un heroe para juegos estilo plataforma.",
+            tecnologias: ["Unity", "Claude"],
+            linkDemo: "https://jasbgd.itch.io/platformer-academy",
             linkCodigo: "#"
-        }*/
+        }
     ];
 
     return (
