@@ -23,7 +23,7 @@ const Proyectos = () => {
         },
         {
             id: 3,
-            imagen: "https://lh3.googleusercontent.com/keep-bbsk/AFgXFlJs2IeFja9uWnqDFdwq80TwIxb4adsp3WXfZGSvjDLxg5ofBiP3xHVUI7ACPqsRo1ev_GXmJF5PtW7fhqQlmjyVbc2_aE3LPu4BSSZvA6yrrFTh0NJi_w=s810.jpg",
+            imagen: "https://lh3.googleusercontent.com/d/1FYIA7CuWcesY63x5eX7-qQLBHxZMYkQ9=w1000",
             titulo: "Proyecto de caja fuerte",
             descripcion: "El proyecto consistía en crear una caja fuerte con sistema de seguridad y codigo de apertura.",
             tecnologias: ["Arduino", "Servomotores", "Sensores", "LEDs", "display LCD", "Buzzer", "Pulsadores", "Protoboard"],
@@ -32,7 +32,7 @@ const Proyectos = () => {
         },
         {
             id: 4,
-            imagen: "https://photos.fife.usercontent.google.com/pw/AP1GczPgqN3IM8Z-u3a16j5V2cxrM0K_yyzpmWqBKWieSgMzZCw-EByCbJHH=w1276-h700-s-no-gm?authuser=0",
+            imagen: "https://img.itch.zone/aW1nLzMxMTA3NjAyLnBuZw==/original/AQwpzi.png",
             titulo: "PLATFORM ACADEMY",
             descripcion: "Proyecto Demo de videojuego donde entrenas un heroe para juegos estilo plataforma.",
             tecnologias: ["Unity", "Claude"],
